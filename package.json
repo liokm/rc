@@ -2,6 +2,7 @@
   "name": "react-common",
   "version": "1.0.0",
   "description": "react-common React component",
+  "private": true,
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
