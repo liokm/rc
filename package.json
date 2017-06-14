@@ -13,11 +13,10 @@
   ],
   "scripts": {
     "build": "nwb build-react-component",
-    "clean": "nwb clean-module && npm clean-demo",
-    "start": "nwb serve-react-demo",
+    "clean": "nwb clean-module",
+    "start": "start-storybook -p 9009",
     "test": "react-scripts test --env=jsdom",
-    "test:coverage": "yarn test --coverage",
-    "storybook": "start-storybook -p 9009",
+    "test:coverage": "react-scripts test --env=jsdom --coverage",
     "build-storybook": "build-storybook"
   },
   "dependencies": {},
