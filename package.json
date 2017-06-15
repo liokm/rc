@@ -19,7 +19,8 @@
     "test:coverage": "react-scripts test --env=jsdom --coverage",
     "build-storybook": "build-storybook",
     "precommit": "lint-staged",
-    "release": "np"
+    "release": "np",
+    "version": "nwb build-react-component --no-demo && git add lib es"
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": "eslint",
