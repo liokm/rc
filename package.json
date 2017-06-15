@@ -12,7 +12,7 @@
     "umd"
   ],
   "scripts": {
-    "build": "nwb build-react-component",
+    "build": "nwb build-react-component --no-demo",
     "clean": "nwb clean-module",
     "start": "start-storybook -p 9009",
     "test": "react-scripts test --env=jsdom",
@@ -20,7 +20,7 @@
     "build-storybook": "build-storybook",
     "precommit": "lint-staged",
     "release": "np",
-    "version": "nwb build-react-component --no-demo && git add lib es"
+    "version": "yarn run build"
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": "eslint",
