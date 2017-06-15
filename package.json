@@ -15,12 +15,13 @@
     "build": "nwb build-react-component --no-demo",
     "clean": "nwb clean-module",
     "start": "start-storybook -p 9009",
-    "test": "react-scripts test --env=jsdom",
+    "test": "CI=true react-scripts test --env=jsdom",
+    "test:watch": "react-scripts test --env=jsdom",
     "test:coverage": "react-scripts test --env=jsdom --coverage",
     "build-storybook": "build-storybook",
     "precommit": "lint-staged",
     "release": "np",
-    "version": "yarn run build"
+    "version": "nwb build-react-component --no-demo"
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": "eslint",
