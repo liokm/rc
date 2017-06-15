@@ -1,6 +1,6 @@
 {
   "name": "react-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-common React component",
   "private": true,
   "main": "lib/index.js",
