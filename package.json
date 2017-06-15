@@ -18,7 +18,8 @@
     "test": "react-scripts test --env=jsdom",
     "test:coverage": "react-scripts test --env=jsdom --coverage",
     "build-storybook": "build-storybook",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "release": "np"
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": "eslint",
@@ -38,6 +39,7 @@
     "eslint-config-airbnb": "^15.0.1",
     "husky": "^0.13.4",
     "lint-staged": "^3.6.1",
+    "np": "^2.16.0",
     "nwb": "0.15.x",
     "react": "^15.6.0",
     "react-dom": "^15.6.0",
